@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mindformaiwebsite-dev-202a0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::679446432273:role/amplify-mindformaiwebsite-dev-202a0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::679446432273:role/amplify-mindformaiwebsite-dev-202a0-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mindformaiwebsite-dev-202a0-deployment",
+      "UnauthRoleName": "amplify-mindformaiwebsite-dev-202a0-unauthRole",
+      "StackName": "amplify-mindformaiwebsite-dev-202a0",
+      "StackId": "arn:aws:cloudformation:us-east-1:679446432273:stack/amplify-mindformaiwebsite-dev-202a0/a9386b20-b112-11f0-8908-0affcf84f6bb",
+      "AmplifyAppId": "d1llqt6smbrpgp"
+    },
+    "categories": {
+      "function": {
+        "contactFormFunction": {
+          "resendApiKey": "re_HtRYmo3U_EpqtN5gNZq8Yed4tPLACGXCv ",
+          "deploymentBucketName": "amplify-mindformaiwebsite-dev-202a0-deployment",
+          "s3Key": "amplify-builds/contactFormFunction-316b3869642f75322f6f-build.zip"
+        }
+      },
+      "api": {
+        "apif38e947a": {}
+      }
+    }
+  }
+}

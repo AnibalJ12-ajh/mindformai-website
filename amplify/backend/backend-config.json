@@ -1,0 +1,52 @@
+{
+  "api": {
+    "apif38e947a": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "contactFormFunction"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "contactFormFunction": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_contactFormFunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "contactFormFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_contactFormFunction_resendApiKey": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "contactFormFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_contactFormFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "contactFormFunction"
+        }
+      ]
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logoMindFormAI from '../img/logo.png';
 import { Section } from '../types';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MenuIcon, CloseIcon } from './Icons';
@@ -22,11 +23,11 @@ const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection }) => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div 
-            className="flex items-center space-x-3 cursor-pointer"
+            className="flex items-center cursor-pointer"
             onClick={() => handleNavClick(Section.Inicio)}
           >
-            <img src="https://storage.googleapis.com/aistudio-hosting/story-images/c71b694b-4497-44f2-9858-a89e4367f223/images/logo.png" alt="MindFormAI Logo" className="h-10 w-auto" />
-            <span className="text-2xl font-bold tracking-wider">MindFormAI</span>
+            <img src={logoMindFormAI} alt="MindFormAI Logo" className="h-20 w-auto gap-0" />
+            <span className="text-xl font-bold tracking-wider">MindFormAI</span>
           </div>
           <nav className="hidden md:flex items-center space-x-4">
             {navItems.map((item) => (
