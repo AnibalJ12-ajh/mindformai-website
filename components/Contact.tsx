@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // Corregido: Se usa una ruta absoluta desde la raíz del proyecto para mayor consistencia
-import { MailIcon, PhoneIcon, MapPinIcon } from '/Users/anibaljoseph/Desktop/mindformai_website/components/Icons.tsx'; 
+import { MailIcon, PhoneIcon, MapPinIcon } from './Icons'; 
 
 // --- Componente de Info (Tu código original) ---
 const ContactInfoItem: React.FC<{ icon: React.ReactNode; title: string; value: string; href?: string }> = ({ icon, title, value, href }) => (
